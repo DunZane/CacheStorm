@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GoORMHelperCache">
+    <option name="schemaMapping">
+      <map>
+        <entry key="ByteView">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/cache/byteview.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Cache">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/cache/lru/lru.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Group">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/cache/cachegorm.go" />
+              <option value="file://$PROJECT_DIR$/cache/cachestorm.go" />
+              <option value="file://$PROJECT_DIR$/singleflight/singleflight.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="HTTPPool">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/cache/http.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="HttpGetter">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/cache/http.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Map">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/cache/consistenthash/consistenthash.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="cache">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/cache/cache.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="call">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/singleflight/singleflight.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="entry">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/cache/lru/lru.go" />
+            </set>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="scannedPathMapping">
+      <map>
+        <entry key="file://$PROJECT_DIR$/cache/byteview.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1717560443044" />
+              <option name="schema">
+                <list>
+                  <option value="ByteView" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/cache/cache.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1717560443037" />
+              <option name="schema">
+                <list>
+                  <option value="cache" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/cache/cachegorm.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1718065461485" />
+              <option name="schema">
+                <list>
+                  <option value="Group" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/cache/cachestorm.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1718067897455" />
+              <option name="schema">
+                <list>
+                  <option value="Group" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/cache/cachestorm_test.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1717560443034" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/cache/consistenthash/consistenthash.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1717765264244" />
+              <option name="schema">
+                <list>
+                  <option value="Map" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/cache/consistenthash/consistenthash_test.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1717764776044" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/cache/http.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1718068273454" />
+              <option name="schema">
+                <list>
+                  <option value="HTTPPool" />
+                  <option value="HttpGetter" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/cache/lru/lru.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1717382074931" />
+              <option name="schema">
+                <list>
+                  <option value="Cache" />
+                  <option value="entry" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/cache/lru/lru_test.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1717383050734" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/cache/peers.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1718067766513" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/main.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1718066330115" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/singleflight/singleflight.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1718065152968" />
+              <option name="schema">
+                <list>
+                  <option value="call" />
+                  <option value="Group" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="tableStructMapping">
+      <map>
+        <entry key="byte_view" value="ByteView" />
+        <entry key="cache" value="cache" />
+        <entry key="call" value="call" />
+        <entry key="entry" value="entry" />
+        <entry key="group" value="Group" />
+        <entry key="http_getter" value="HttpGetter" />
+        <entry key="http_pool" value="HTTPPool" />
+        <entry key="map" value="Map" />
+      </map>
+    </option>
+    <option name="lastTimeChecked" value="1718064328764" />
+  </component>
+</project>
