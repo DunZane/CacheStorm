@@ -47,6 +47,20 @@
             </set>
           </value>
         </entry>
+        <entry key="Request">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/cachepb/cache.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Response">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/cachepb/cache.pb.go" />
+            </set>
+          </value>
+        </entry>
         <entry key="cache">
           <value>
             <set>
@@ -65,6 +79,13 @@
           <value>
             <set>
               <option value="file://$PROJECT_DIR$/cache/lru/lru.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="x">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/cachepb/cache.pb.go" />
             </set>
           </value>
         </entry>
@@ -186,6 +207,20 @@
             </ScannedPath>
           </value>
         </entry>
+        <entry key="file://$PROJECT_DIR$/cachepb/cache.pb.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1718067458868" />
+              <option name="schema">
+                <list>
+                  <option value="Request" />
+                  <option value="Response" />
+                  <option value="x" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
         <entry key="file://$PROJECT_DIR$/main.go">
           <value>
             <ScannedPath>
@@ -218,6 +253,9 @@
         <entry key="http_getter" value="HttpGetter" />
         <entry key="http_pool" value="HTTPPool" />
         <entry key="map" value="Map" />
+        <entry key="request" value="Request" />
+        <entry key="response" value="Response" />
+        <entry key="x" value="x" />
       </map>
     </option>
     <option name="lastTimeChecked" value="1718064328764" />

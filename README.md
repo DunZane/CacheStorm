@@ -52,7 +52,7 @@ Before to instruct last recent used strategy, these are three cache realse strat
 
 the data struct as follows:
 
-![](/Users/zhaodeng/Downloads/LRU.png )
+![](dic/LRU.png )
 
 So, its clear that there are two core:
 
@@ -82,7 +82,18 @@ By the way, cache will also have `add` and `get`, which is safe in concurrent be
 
 The Group is the most important data struct , which aim to contact with users and control the store and the process of  cache value. It's descripted as:
 
-![](/Users/zhaodeng/Downloads/CacheStorm.png)
+![](dic/CacheStorm.png)
+
+or
+
+```bash
+                                 Yes
+Receive key --> Check if cached -----> Return cached value ⑴
+                  |  Yes                          Yes
+                  |-----> fetch from remote node -----> remote node --> Return cached value ⑵
+                            |  No
+                            |-----> Call `callback` --> Return cached value ⑶
+```
 
 So it clear that the Group's main code struct is：
 
@@ -136,7 +147,7 @@ When a distribute cache system got a data request, which the node should be acce
 
 Acctually there is way to solve this problem that we use `Hash(key) % 10` and the result will decide the data to which node. And if any node hava data requst will assign the task to this node.
 
-![](/Users/zhaodeng/Downloads/test.drawio (2).png)
+![](dic/hash.png)
 
 - What if the node's number will change?
 
@@ -153,7 +164,7 @@ consistent hashing will project the key to 2^32, and connect the head and tail m
 - caculate the node's(node's name, id and ip) hashing value and put it on a circle.
 - caculate the key's hashing value, put it on circle and found the first node clockwise which be regarded as selected. 
 
-![](/Users/zhaodeng/Downloads/test.drawio (3).png)
+![](dic/chash.png)
 
 So Key1、Key2 will on Peer1 and Key3 on the Peer2 and Key4 on Peer3 , and if the Peer3 was removed, so Key4 will be put on Peer1 natrually. `That means we only change the cache which put on this changed node, most cache still keep before.`
 
